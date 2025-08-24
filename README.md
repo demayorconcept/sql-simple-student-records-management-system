@@ -11,6 +11,8 @@ You will use the following DDL commands to accomplish this task:
 •	CREATE – to create tables and define columns with appropriate data types and constraints.
 •	ALTER – to modify table structures after creation if necessary.
 •	DROP – to remove tables or columns that are no longer needed.
+. The university now requests that only students above the age of 18 should be enrolled in courses. 
+Update the database structure or queries to enforce this constraint.
 
 ## Steps and Requirements
 1.	Create the Students table
@@ -66,9 +68,31 @@ Drop the Enrollments table.
 Why each table is necessary.
 The relationships between the tables and how they help maintain referential integrity in the database.
 
-![]()
-## Bonus Task
-The university now requests that only students above the age of 18 should be enrolled in courses. Update the database structure or queries to enforce this constraint.
+## course table
+this table consists of the list of courses in each department
+![](course.png)
+
+## department table
+this table consists of the list of departments we have in faculty
+![](dept.png)
+
+## enrollment table
+this table consists of the enrollee of each courses
+![](enrolment.png)
+
+## faculty table
+this table consists of the student faculty
+![](faculty.png)
+
+## student table
+this table consists of the list of students that enrolled for the courses
+![](student.png)
+
+## conclusion
+this project is developed to create a simple student records management system for 30 students. more robust and scalable project on database
+will be done in the future.
+
+
 
 
 
